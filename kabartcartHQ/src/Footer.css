@@ -1,0 +1,72 @@
+/* Footer container styles */
+.footer-container {
+  background-color: #004d4d;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* Footer logo styling */
+.footer-logo {
+  max-width: 140px;
+  margin-bottom: 10px;
+}
+
+/* Input field styles for email */
+.footer-input {
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: none;
+  width: 100%;
+}
+
+/* Button styles for subscribe */
+.footer-button {
+  background-color: #2ba37a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 100%;
+  font-weight: 500;
+}
+
+/* Footer Styling for Mobile - Centered */
+@media (max-width: 767px) {
+  .footer-container .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer-container .col-lg-4, .footer-container .col-md-6 {
+    text-align: center;
+  }
+
+  .footer-container .row {
+    text-align: center;
+  }
+
+  .footer-container .d-flex {
+    justify-content: center;
+  }
+
+  .footer-container .fs-5 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Footer Styling for Larger Screens - Left Align */
+@media (min-width: 768px) {
+  .footer-container .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .footer-container .col-lg-4, .footer-container .col-md-6 {
+    text-align: left;
+  }
+
+  .footer-container .d-flex {
+    justify-content: flex-start;
+  }
+}
